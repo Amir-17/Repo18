@@ -9,7 +9,7 @@ let generatorArray = [];
 
 for (let i of iterator) {
     generatorArray.push(i);
-}
+};
 
 console.log(generatorArray);
 module.exports = { generatorArray, myGenerator };
